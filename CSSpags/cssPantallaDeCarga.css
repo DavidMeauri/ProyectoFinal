@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+}
+
+#iconoCarga {
+width: 150px;
+height: 110px;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 10%; 
+animation-name: animacion;
+animation-duration: 3s;   
+}
+
+@keyframes animacion {
+0%   {top:0px; transform: rotate(0deg);}
+25%  {top:25px; transform: rotate(10deg);}
+50%  {top: -25px;  width: 160px; height: 120px;}
+75%  {top:25px; transform: rotate(-10deg);}
+100% {top: 0px;}
+}
+        
+
+#guitarraCarga {
+transform: rotate(-30deg);
+width: 600px;
+height: 250px;
+margin: auto;
+position: absolute;
+top: 16%;
+left: 0;
+right: 0;
+bottom: 0;  
+}
+
+#logoCarga {
+width: 480px;
+height: 120px;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 40%;  
+}
+
+.rayo1 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+margin-left: 2%;
+}
+
+.rayo2 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+.rayo3 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+
+.rayo4 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+
+.rayo5 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+        
+.rayo6 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+.rayo7 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+.rayo8 {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+}
+
+.rayo1a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+margin-left: 8%;
+}
+    
+.rayo2a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+    
+.rayo3a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+    
+    
+.rayo4a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+    
+    
+.rayo5a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+    
+            
+.rayo6a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+    
+.rayo7a {
+width: 100px;
+height: 180px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0; 
+margin-right: 5%; 
+}
+
+
+
+

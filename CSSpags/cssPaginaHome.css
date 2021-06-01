@@ -1,0 +1,404 @@
+body {
+    background-color: black;
+}
+
+#fotoBar {
+    position: absolute;
+    width: 1370px;
+    height: 797px;
+}
+
+#logoBar {
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#boton1 {
+    margin-top: 2%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 3%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2 {
+    margin-top: 2%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 13%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3 {
+    margin-top: 2%;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 23%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#spotify{
+    margin-top: 47%;
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#fotoCantante{
+    top: 100%;
+    position: absolute;
+    width: 1370px;
+    height: 797px;
+}
+
+#logoBar1 {
+    top: 101%;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#boton1a {
+    margin-top: 60%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 3%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2a {
+    margin-top: 60%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 13%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3a {
+    margin-top: 60%;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 23%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#parrafoCantante{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-top: 70%;
+    text-align: justify;
+    left: 100px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 25px;
+}
+
+#galeria {
+    margin-top: 87%;
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    left: 13%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Germania One', cursive;
+    font-size: 30px;
+    border: 1px solid;
+}
+
+#logoBar2 {
+    top: 203%;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#boton1b {
+    margin-top: 119%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 3%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2b {
+    margin-top: 119%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 13%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3b {
+    margin-top: 119%;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 23%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#barra2 {
+    margin-top: 125%;
+    position: absolute;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    left: 5%;
+    width: 90%;
+}
+
+#cartelera1 {
+    margin-top: 132%;
+    position: absolute;
+    left: 6.7%;
+    width: 350px;
+    height: 500px;
+}
+
+#cartelera2 {
+    margin-top: 132%;
+    position: absolute;
+    left: 37.7%;
+    width: 350px;
+    height: 500px;
+}
+#cartelera3 {
+    margin-top: 132%;
+    position: absolute;
+    left: 68.3%;
+    width: 350px;
+    height: 500px;
+}
+
+#botonReserva1 {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    margin-top: 170%;
+    left: 12.5%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#botonReserva2 {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    margin-top: 170%;
+    left: 74%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#botonReserva3 {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    margin-top: 170%;
+    left: 43%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#logoBar3 {
+    margin-top: 176%;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#boton1c {
+    margin-top: 178%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 3%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2c {
+    margin-top: 178%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 13%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3c {
+    margin-top: 178%;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 23%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#bebidas {
+    margin-top: 175%;
+    position: absolute;
+    width: 1370px;
+    height: 797px;
+}
+
+#parrafoBebidas{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: 192%;
+    text-align: justify;
+    left: 112px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 40px;
+}
+
+#botonDescubrir{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    margin-top: 206%;
+    left: 13%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Homemade Apple', cursive;
+}
+
+#logoBar4 {
+    margin-top: 234%;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    margin-left: 2%;
+}
+
+#boton1d {
+    margin-top: 236%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 3%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2d {
+    margin-top: 236%;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 13%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3d {
+    margin-top: 236%;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    right: 23%;
+    background-color: rgb(87, 21, 21);
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#parrafoFinal1{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: 250%;
+    text-align: center;
+    right: 1000px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 20px;
+}
+
+#parrafoFinal2{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-top: 270%;
+    text-align: center;
+    right: 1000px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 20px;
+}
+
+#botonEnviar{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    margin-top: 276%;
+    left: 50%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Homemade Apple', cursive;
+}
