@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CSSpags/cssPantallaDeCarga.css">
-    <link rel="stylesheet" href="CSSpags/cssPaginaFavoritos.css">
+    <link rel="stylesheet" href="CSSpags/cssPaginaContactenos.css">
     <script src="JSpags/jquery-3.6.0.min.js"></script>
     <script src="JSpags/jsProyecto.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Germania+One&family=Homemade+Apple&family=IM+Fell+DW+Pica&family=Rock+Salt&display=swap"
         rel="stylesheet">
 
-    <title>Página Favoritos</title>
+    <title>Contactanos</title>
 </head>
 
 <body>
@@ -73,7 +73,68 @@
             </div>
         </div>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="páginaHome.html"><img src="Imágenes/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a id="boton1" class="nav-link" href="contenidoPágina1.html">Reservaciones<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="boton2" class="nav-link" href="contenidoPágina2.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="boton3" class="nav-link" href="páginaFavoritos.html">Bebidas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h1 id="titulo">Contactanos</h1>
+            <div class="col-lg-5">
+                <div class="relate">
+                    <div class="card text-white bg-primary mb-3 cr">
+                        <div class="card-header">Mapa</div>
+                        <div class="card-body">
+                            <img class="card-img" src="Imágenes/Sin títulodas.png" alt="Mapa con direcci&oacute;n del lugar." width=380px>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row rows">
+                    <h2 id="subtitulo">Para preguntas en general, llena el siguiente formulario.</h2>
+                    <form method="POST">
+                        <ul>
+                            <li>
+                                <label for="nombre"></label>
+                                <input type="text" name="nom_usuario" id="nombre" required="required" placeholder="Nombre" onkeypress="limitacionTexto();">
+                            </li>
+                            <li>
+                                <label for="email"></label>
+                                <input type="email" name="ema_usuario" id="email" required="required" placeholder="E-mail">
+                            </li>
+                            <li>
+                                <label for="telefono"></label>
+                                <input type="tel" name="tel_usuario" id="telefono" required="required" placeholder="Tel%eacute;fono" onkeypress="limitacionTexto();">
+                            </li>
+                            <textarea name="men_usuario" id="mensaje" cols="30" rows="10" onkeypress="limitacionTexto();"></textarea>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

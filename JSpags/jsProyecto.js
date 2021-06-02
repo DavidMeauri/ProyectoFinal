@@ -1,4 +1,4 @@
-$(document).ready(function() {
+  $(document).ready(function() {
     //Ejecutamos método que oculta las cajas
     OcultarContenedor1();
   
