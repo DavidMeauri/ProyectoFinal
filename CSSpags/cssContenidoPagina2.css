@@ -1,0 +1,79 @@
+body {
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+}
+#logoBar {
+    position: absolute;
+    width: 300px;
+}
+
+#boton1 {
+    position: absolute;
+    right:35%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2 {
+    position: absolute;
+    right: 25%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3 {
+    position: absolute;
+    right: 15%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+#titulo{
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Rock Salt';
+}
+
+.container.gallery-container {
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+.tz-gallery .lightbox img {
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    margin: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
