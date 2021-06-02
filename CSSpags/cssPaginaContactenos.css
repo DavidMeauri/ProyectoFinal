@@ -1,6 +1,5 @@
 body {
     font: normal 16px sans-serif;
-    padding: 60px 0;
 }
 #logoBar {
     position: absolute;
@@ -31,7 +30,6 @@ body {
     font-family: 'Rock Salt', cursive;
 }
 #titulo{
-    margin-top: 70px;
     color: white;
     text-align: center;
     font-family: 'Rock Salt';
@@ -41,4 +39,20 @@ body {
     margin-left: 25px;
     color: white;
     font-family: 'Rock Salt';
+}
+li{
+    margin: 10px;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+#nombre, #email, #telefono{
+    width: 400px;
+}
+#mensaje{
+    margin: 15px;
+    align-content: center;
+}
+.botonGuar{
+    align-items: center;
 }

@@ -118,7 +118,7 @@
                         <ul>
                             <li>
                                 <label for="nombre"></label>
-                                <input type="text" name="nom_usuario" id="nombre" required="required" placeholder="Nombre" onkeypress="limitacionTexto();">
+                                <input type="text" name="nombre" id="nombre" required="required" placeholder="Nombre">
                             </li>
                             <li>
                                 <label for="email"></label>
@@ -126,15 +126,19 @@
                             </li>
                             <li>
                                 <label for="telefono"></label>
-                                <input type="tel" name="tel_usuario" id="telefono" required="required" placeholder="Tel%eacute;fono" onkeypress="limitacionTexto();">
+                                <input type="tel" name="tel_usuario" id="telefono" required="required" placeholder="Tel&eacute;fono" onkeypress="limitacionTexto();">
                             </li>
-                            <textarea name="men_usuario" id="mensaje" cols="30" rows="10" onkeypress="limitacionTexto();"></textarea>
+                            <textarea name="men_usuario" id="mensaje" cols="50" rows="10" onkeypress="limitacionTexto();" placeholder="Escribe tu mensaje"></textarea>
                         </ul>
+                        <div class="botonGuar">
+                            <button class="btn btn-dark" onclick="validarNombre(nombre);">Guardar</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="JSpags/jsFormulario.js"></script>
 </body>
 
 </html>
