@@ -18,7 +18,7 @@
     <title>Contactanos</title>
 </head>
 
-<body>
+<body class="c">
     <header>
         <div id="pantallaDeCarga">
             <div class="container-fluid">
@@ -116,25 +116,30 @@
                 <div class="row rows">
                     <h2 id="subtitulo">Para preguntas en general, llena el siguiente formulario.</h2>
                     <form>
-                        <label for="nombre"></label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required onblur="caracteres()">
-
-                        <label for="email"></label>
-                        <input type="email" name="ema_usuario" id="email" required="required" placeholder="E-mail">
-
-                        <label for="telefono"></label>
-                        <input type="tel" name="tel_usuario" id="telefono" required="required"
-                            placeholder="Tel&eacute;fono">
-
-                        <textarea name="men_usuario" id="mensaje" cols="50" rows="10" placeholder="Escribe tu mensaje"></textarea>
-
-                        <div class="botonGuar">
-                            <button class="btn btn-dark">Guardar</button>
+                        <div class="casillas">
+                            <div class="pa"></div>
+                            <label for="">Nombre</label>
+                            <input type="text" name="" id="nombre" placeholder="Nombre" required onblur="caracteres()">
                         </div>
-                    </form>
+                        <div class="pa">
+                            <label for="">Email</label>
+                            <input type="email" name="" id="email" required="required" placeholder="E-mail">
+                        </div>
+                        <div class="pa">
+                            <label for="">Tel&eacute;fono</label>
+                            <input type="text" name="" id="telefono" placeholder="Tel&eacute;fono" required
+                                onblur="numeros()">
+                        </div>
+                        <textarea id="mensaje" cols="90" rows="8" placeholder="Escribe tu mensaje"
+                            onblur="validarMensaje()"></textarea>
                 </div>
+                <div class="botonGuar">
+                    <button id="b" class="btn btn-dark">Guardar</button>
+                </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
 </body>
 

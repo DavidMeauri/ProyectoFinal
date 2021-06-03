@@ -47,11 +47,15 @@ li{
     line-height: 30px;
 }
 #nombre, #email, #telefono{
+    margin: 5px;
     width: 400px;
 }
 #mensaje{
     margin: 15px;
-    align-content: center;
+}
+label{
+    color: white;
+    font-family: 'Rock Salt';
 }
 .botonGuar{
     display: flex;
