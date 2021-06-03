@@ -37,6 +37,12 @@ body {
     font-family: 'Rock Salt';
 }
 
+li{
+    margin: 10px;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
 .container.gallery-container {
     color: #35373a;
     min-height: 100vh;
@@ -76,4 +82,11 @@ body {
     .container.gallery-container {
         border-radius: 0;
     }
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.bo{
+    margin: 15px;
 }

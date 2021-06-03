@@ -54,5 +54,6 @@ li{
     align-content: center;
 }
 .botonGuar{
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }

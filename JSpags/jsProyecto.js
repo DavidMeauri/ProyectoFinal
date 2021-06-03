@@ -32,3 +32,27 @@
     $("#pantallaFinal").show(1000);
     $('#pantallaDeCarga').hide();
   }
+  function caracteres(){
+    var input = document.getElementById('nombre');
+    if(input.value.length < 5) {
+    alert('Escribe más de 15 carácteres.');
+    }
+    }
+  function colorTitulos(){
+    let colores =["red","green","violet","tomato","teal","tan","slateblue","aqua"];
+    let random = Math.floor(Math.random() * colores.length);
+    document.querySelector(".t").style.color=colores[random];
+  }
+  function colorFondo(){
+    let colores =["red","green","violet","tomato","teal","tan","slateblue","aqua"];
+    let random = Math.floor(Math.random() * colores.length);
+    document.querySelector(".f").style.background=colores[random];
+  }  
+  function MO(){
+    let con = document.querySelector(".g");
+    if (con.style.display == "none"){
+      document.querySelector(".g").style.display = 'block';
+    }else{
+      document.querySelector(".g").style.display = 'none';
+    }
+  }
