@@ -1,0 +1,63 @@
+body {
+    font: normal 16px sans-serif;
+}
+#logoBar {
+    position: absolute;
+    width: 300px;
+}
+
+#boton1 {
+    position: absolute;
+    right:35%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton2 {
+    position: absolute;
+    right: 25%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+
+#boton3 {
+    position: absolute;
+    right: 15%;
+    padding: 0px 0px;
+    padding: 0px 0px; 
+    font-family: 'Rock Salt', cursive;
+}
+#titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Rock Salt';
+}
+#subtitulo{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Rock Salt';
+}
+li{
+    margin: 10px;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+#nombre, #email, #telefono{
+    margin: 5px;
+    width: 400px;
+}
+#mensaje{
+    margin: 15px;
+}
+label{
+    color: white;
+    font-family: 'Rock Salt';
+}
+.botonGuar{
+    display: flex;
+    justify-content: flex-end;
+}

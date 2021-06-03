@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CSSpags/cssPantallaDeCarga.css">
-    <link rel="stylesheet" href="CSSpags/cssPaginaFavoritos.css">
+    <link rel="stylesheet" href="CSSpags/cssContenidoPagina1.css">
     <script src="JSpags/jquery-3.6.0.min.js"></script>
     <script src="JSpags/jsContenido1.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <div id="pantallaDeCarga" style="background-color: black;">
+        <div id="pantallaDeCarga">
             <div class="container-fluid">
                 <img id="logoCarga" src="Imágenes/logoCarga.png" alt="Se muestra el nombre del Bar">
                 <img id="iconoCarga" src="Imágenes/2143776.png" alt="Se muestra icono de carga">
@@ -76,7 +76,9 @@
     <div id="contenido" style="background-color: black;">
         <div class="container-fluid">
             <div class="row alinearTexto">
-                <img id="imagen2" src="Imágenes/barraMenu.png">
+                <a href="páginaHome.html">
+                    <img id="imagen2" src="Imágenes/barraMenu.png">
+                </a>
                 <h2 id="subtitulo">Cries of Blood + Hellfish + Southern Hybrids + Licantrophy </h2>
                 <div class="col-sm-6 col-md-6">
                     <img id="imagen1" src="Imágenes/Cartelera3.jpg" alt="Se muestra imagen de concierto">
@@ -87,34 +89,64 @@
 
                 </div>
                 <div class="col-sm-6 col-md-6">
-                    <a href="#IM">
+                    <a href="#Cesta">
                         <button id="BotonCompra" type="button " class="btn btn-info">Comprar</button>
-                        <img id="concierto" src="Imágenes/viva.png">
                     </a>
 
 
                 </div>
+                <br>
                 <div>
+                    <img id="concierto" src="Imágenes/viva.png">
                     <h5 id="compartir"> compartir en
                         <a href="https://es-la.facebook.com/">
-                        <img id="" src="Imágenes/FaceIcono.png">
+                            <img id="" src="Imágenes/FaceIcono.png">
                         </a>
                         <a href="https://twitter.com/?lang=es">
                             <img src="Imágenes/twitter.png">
                         </a>
-                    
                     </h5>
-               </div>
-               <p> 
-                <img src="Imágenes/ubicacion.png" align="left">
-                </p>
-            
-            </div>
-            <img id="julio" src="Imágenes/26julio.png" >
-            <button id="BotonM" type="button " class="btn btn-info">Comprar</button>
-        </div>
+                    <br>
+                    <br>
 
+                </div>
+                <p>
+                    <img src="Imágenes/ubicacion.png" align="left">
+                </p>
+
+            </div>
+
+
+            <img id="julio" src="Imágenes/26julio.png">
+            <div class="claseb">
+                <a href="#Cesta">
+                    <button id="Button" class="btn btn-info ">Comprar</button>
+                </a>
+            </div>
+
+        </div>
+        <div>
+            <img id="contactanos" src="Imágenes/contactanos.png">
+        </div>
+        <a href="páginaHome.html">
+            <div>
+                <img id="barraMenu" src="Imágenes/barraMenu.png">
+            </div>
+        </a>
+        <br>
+        <br>
+        <div>
+
+            <img id="Cesta" src="Imágenes/AñadirCesta.png">
+
+        </div>
+        <br>
+        <br>
+        <div>
+            <img id="seguridad" src="Imágenes/segure.png">
+        </div>
     </div>
+
 </body>
 
 </html>

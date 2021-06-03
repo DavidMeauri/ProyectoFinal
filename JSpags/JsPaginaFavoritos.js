@@ -5,7 +5,7 @@ $(document).ready(function() {
     //Cada 6 segundos ejecutamos la función que reinicializa los contenedorees
     setInterval(function() {
       OcultarContenedor2();
-    }, 0);
+    }, 3500);
   
   });
   
@@ -13,8 +13,6 @@ $(document).ready(function() {
   function OcultarContenedor1() {
     setTimeout(function() {
       $("#contenido").hide();
-      
-      
     });
   
     setTimeout(function() {
@@ -23,6 +21,6 @@ $(document).ready(function() {
   }
   //Método que reinicializa los contenedores
   function OcultarContenedor2() {
-    $('#contenido').show(1000);
+    $('#contenido').fadeIn(100);
     $('#pantallaDeCarga').hide();
   }

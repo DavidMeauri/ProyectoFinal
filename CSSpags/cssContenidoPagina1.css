@@ -1,15 +1,11 @@
-#contenedorImagen{
-
-
-
-}
 #subtitulo{
 
     font-family: 'Caesar Dressing', cursive;
 
 }
 #concierto{
-    
+   margin-left: 35%; 
+
 }
 #texto1{
 
@@ -17,12 +13,40 @@ margin-left: 10%;
 
 }
 #listaM{
-
-    height: 32px;
+    margin-left: 11%;
+    height: 150px;
     
 }
-#BotonM{
+#contactanos{
+    
+    height: 600px;
+    margin-top: 8%;
+}
+.claseb {
+    display: flex;
+    justify-content:flex-end;
+margin-right: 40%;
+    
+}
+#compartir{
 
-margin-left: 60%;
+margin-left: 35%;
 
+}
+#barraMenu{
+
+    margin-top: 2%;
+    width: auto;
+    height: 100px;
+
+}
+#Cesta{
+    height: 800px;
+    margin-left: 20%;
+    
+}
+#seguridad{
+
+    
+    margin-left: 20%;
 }
