@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSSpags/cssPantallaDeCarga.css">
     <link rel="stylesheet" href="CSSpags/cssContenidoPagina2.css">
     <script src="JSpags/jquery-3.6.0.min.js"></script>
-    <script src="JSpags/jsProyecto.js"></script>
+    <script src="JSpags/jsContenido2.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Germania+One&family=Homemade+Apple&family=IM+Fell+DW+Pica&family=Rock+Salt&display=swap"
@@ -19,7 +19,7 @@
     <title>Galer&iacute;a de artistas</title>
 </head>
 
-<body class="f">
+<body>
     <header>
         <div id="pantallaDeCarga">
             <div class="container-fluid">
@@ -74,80 +74,83 @@
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="páginaHome.html"><img src="Imágenes/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
-                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div id="contenidoPagina2" class="f">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="páginaHome.html"><img src="Imágenes/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-            <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item active">
-                        <a id="boton1" class="nav-link" href="contenidoPágina1.html">Reservaciones<span
-                                class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="boton2" class="nav-link" href="contenidoPágina2.html">Artistas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="boton3" class="nav-link" href="páginaFavoritos.html">Bebidas</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container gallery-container g">
-
-        <h1 class="t"id="titulo">Galer&iacute;a de artistas en el escenario</h1>
-        <div class="tz-gallery">
-
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox"
-                        src="Imágenes/the-cure-el-concierto-de-la-banda-de-rock-en-madrid-en-imagenes.jpg" width=350px;>
-
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/the-cure-videos.jpg" width=350px;>
-
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="lightbox" src="Imágenes/_MAT0643.jfif" width=250px;>
-
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/5-24_music-2-1024x683.jpg" width=350px;>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/LCQZMKFI3RDSNP5UFGXOD7E7XE.jpg" width=350px;>
-
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/paul-stanley-1-600x400.jpg" width=350px;>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/Brian-May.jpg" width=350px;>
-
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/5YQB653P6BBHDKPBBEDVTTNLDU.jpg" width=350px;>
-
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img class="lightbox" src="Imágenes/Janis-Joplin-Smithsonian-Rock-Roll-2017-billboard-1240.jpg"
-                        width=200px; >
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item active">
+                            <a id="boton1" class="nav-link" href="contenidoPágina1.html">Reservaciones<span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="boton2" class="nav-link" href="contenidoPágina2.html">Artistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="boton3" class="nav-link" href="páginaFavoritos.html">Bebidas</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+
+        <div class="container gallery-container g">
+
+            <h1 class="t" id="titulo">Galer&iacute;a de artistas en el escenario</h1>
+            <div class="tz-gallery">
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox"
+                            src="Imágenes/the-cure-el-concierto-de-la-banda-de-rock-en-madrid-en-imagenes.jpg"
+                            width=350px;>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/the-cure-videos.jpg" width=350px;>
+
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <img class="lightbox" src="Imágenes/_MAT0643.jfif" width=250px;>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/5-24_music-2-1024x683.jpg" width=350px;>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/LCQZMKFI3RDSNP5UFGXOD7E7XE.jpg" width=350px;>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/paul-stanley-1-600x400.jpg" width=350px;>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/Brian-May.jpg" width=350px;>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/5YQB653P6BBHDKPBBEDVTTNLDU.jpg" width=350px;>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img class="lightbox" src="Imágenes/Janis-Joplin-Smithsonian-Rock-Roll-2017-billboard-1240.jpg"
+                            width=200px;>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="botones">
-        <button class="btn btn-dark bo" onclick="colorTitulos()">Color Titulos</button>
-        <button class="btn btn-dark bo" onclick="colorFondo()">Color Fondo</button>
-        <button class="btn btn-dark bo" onclick="MO()">Mostrar Ocultar</button>
+        <div class="botones">
+            <button class="btn btn-dark bo" onclick="colorTitulos()">Color Titulos</button>
+            <button class="btn btn-dark bo" onclick="colorFondo()">Color Fondo</button>
+            <button class="btn btn-dark bo" onclick="MO()">Mostrar Ocultar</button>
+        </div>
     </div>
 </body>
 

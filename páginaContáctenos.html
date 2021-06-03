@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSSpags/cssPantallaDeCarga.css">
     <link rel="stylesheet" href="CSSpags/cssPaginaContactenos.css">
     <script src="JSpags/jquery-3.6.0.min.js"></script>
-    <script src="JSpags/jsProyecto.js"></script>
+    <script src="JSpags/jsPaginaContactenos.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Germania+One&family=Homemade+Apple&family=IM+Fell+DW+Pica&family=Rock+Salt&display=swap"
@@ -18,7 +18,7 @@
     <title>Contactanos</title>
 </head>
 
-<body class="c">
+<body>
     <header>
         <div id="pantallaDeCarga">
             <div class="container-fluid">
@@ -73,73 +73,75 @@
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="páginaHome.html"><img src="Imágenes/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
-                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div id="contenidoPaginaContactenos">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="páginaHome.html"><img src="Imágenes/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-            <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item active">
-                        <a id="boton1" class="nav-link" href="contenidoPágina1.html">Reservaciones<span
-                                class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="boton2" class="nav-link" href="contenidoPágina2.html">Artistas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="boton3" class="nav-link" href="páginaFavoritos.html">Bebidas</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item active">
+                            <a id="boton1" class="nav-link" href="contenidoPágina1.html">Reservaciones<span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="boton2" class="nav-link" href="contenidoPágina2.html">Artistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="boton3" class="nav-link" href="páginaFavoritos.html">Bebidas</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <h1 id="titulo">Contactanos</h1>
-            <div class="col-lg-5">
-                <div class="relate">
-                    <div class="card text-white bg-primary mb-3 cr">
-                        <div class="card-header">Mapa</div>
-                        <div class="card-body">
-                            <img class="card-img" src="Imágenes/Sin títulodas.png"
-                                alt="Mapa con direcci&oacute;n del lugar." width=380px>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <h1 id="titulo">Contactanos</h1>
+                <div class="col-lg-5">
+                    <div class="relate">
+                        <div class="card text-white bg-primary mb-3 cr">
+                            <div class="card-header">Mapa</div>
+                            <div class="card-body">
+                                <img class="card-img" src="Imágenes/Sin títulodas.png"
+                                    alt="Mapa con direcci&oacute;n del lugar." width=380px>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="row rows">
-                    <h2 id="subtitulo">Para preguntas en general, llena el siguiente formulario.</h2>
-                    <form>
-                        <div class="casillas">
-                            <div class="pa"></div>
-                            <label for="">Nombre</label>
-                            <input type="text" name="" id="nombre" placeholder="Nombre" required onblur="caracteres()">
-                        </div>
-                        <div class="pa">
-                            <label for="">Email</label>
-                            <input type="email" name="" id="email" required="required" placeholder="E-mail">
-                        </div>
-                        <div class="pa">
-                            <label for="">Tel&eacute;fono</label>
-                            <input type="text" name="" id="telefono" placeholder="Tel&eacute;fono" required
-                                onblur="numeros()">
-                        </div>
-                        <textarea id="mensaje" cols="90" rows="8" placeholder="Escribe tu mensaje"
-                            onblur="validarMensaje()"></textarea>
+                <div class="col-lg-7">
+                    <div class="row rows">
+                        <h2 id="subtitulo">Para preguntas en general, llena el siguiente formulario.</h2>
+                        <form>
+                            <div class="casillas">
+                                <div class="pa"></div>
+                                <label for="">Nombre</label>
+                                <input type="text" name="" id="nombre" placeholder="Nombre" required
+                                    onblur="caracteres()">
+                            </div>
+                            <div class="pa">
+                                <label for="">Email</label>
+                                <input type="email" name="" id="email" required="required" placeholder="E-mail">
+                            </div>
+                            <div class="pa">
+                                <label for="">Tel&eacute;fono</label>
+                                <input type="text" name="" id="telefono" placeholder="Tel&eacute;fono" required
+                                    onblur="numeros()">
+                            </div>
+                            <textarea id="mensaje" cols="90" rows="8" placeholder="Escribe tu mensaje"
+                                onblur="validarMensaje()"></textarea>
+                    </div>
+                    <div class="botonGuar">
+                        <button id="b" class="btn btn-dark">Guardar</button>
+                    </div>
+                    </form>
                 </div>
-                <div class="botonGuar">
-                    <button id="b" class="btn btn-dark">Guardar</button>
-                </div>
-                </form>
             </div>
         </div>
-    </div>
     </div>
 </body>
 
