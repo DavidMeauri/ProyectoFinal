@@ -1,0 +1,135 @@
+
+#contenido{
+
+color: brown;
+font-size: 50px;
+
+}
+.alinearTexto{
+
+text-align: center;
+
+}
+#imagen1{
+width: 350px;
+height: 500px;
+margin-top: 2%;
+position: relative;
+
+}
+#subtitulo{
+    text-align: left;
+    font-family: 'Caesar Dressing', cursive;
+
+}
+#BotonCompra{
+
+    font-family: 'Almendra', serif;
+    text-align: right;
+    margin-top: 4%;
+
+}
+#contenedorImagen{
+
+    text-align:initial
+
+}
+#tex{
+    font-family: 'Almendra', serif;
+    
+}
+#lista1{
+
+    text-align: left;
+
+}
+#cads{
+    font-family: 'Almendra', serif;
+
+}
+#cads1{
+    
+    font-family: 'Almendra', serif;
+
+}
+#cad2{
+    font-family: 'Almendra', serif;
+
+}
+#imagen1{
+    margin-left: 10%;
+
+}
+#imagen2{
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+#imagen3{
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+#imagen4{
+
+   position: absolute;
+   margin-left: 50%;
+
+}
+#imagen5{
+
+    position: relative;
+    width: auto;
+    height: 800px;
+    margin-top: 8%;
+    
+ }
+ #imagen7{
+    margin-top: 2%;
+    width: auto;
+    height: 100px;
+ }
+ #imagen8{
+    margin-left: 5%;
+    position: relative;
+    margin-top: 20px;
+    height: 500px;
+ }
+ #imagen9{
+    
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 500px;
+    margin-bottom: 50%;
+    
+ }
+ #imagen10{
+    height: 200px;
+    margin-left: 7%;
+    position: absolute;
+    margin-bottom: 20%;
+ }
+ #imagen11{
+    margin-top: 15%;
+    margin-left: 2%;
+ }
+ #imagen12{
+    margin-left: 70%;
+    margin-top: 2%;
+    }
+#imagen13{
+    margin-left: 72%;
+    margin-top: 2%;
+    }
+#imagen14{
+    margin-left: 40%;
+    margin-top: 2%;
+    }
+ #lista{
+    margin-left: 40%;
+    margin-top: 2%;
+        }
+    
+#imagen20{
+    
+        }
