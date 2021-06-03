@@ -4,8 +4,8 @@ body {
 
 #fotoBar {
     position: absolute;
-    width: 1370px;
-    height: 797px;
+    width: 100%;
+    height: auto;
 }
 
 #logoBar {
@@ -18,9 +18,9 @@ body {
 #boton1 {
     margin-top: 2%;
     position: absolute;
+    right: 3%;
     width: 90px;
     height: 50px;
-    right: 3%;
     background-color: rgb(87, 21, 21);
     padding: 0px 0px;
     padding: 0px 0px; 
@@ -30,9 +30,9 @@ body {
 #boton2 {
     margin-top: 2%;
     position: absolute;
+    right: 13%;
     width: 90px;
     height: 50px;
-    right: 13%;
     background-color: rgb(87, 21, 21);
     padding: 0px 0px;
     padding: 0px 0px; 
@@ -42,9 +42,9 @@ body {
 #boton3 {
     margin-top: 2%;
     position: absolute;
+    right: 23%;
     width: 140px;
     height: 50px;
-    right: 23%;
     background-color: rgb(87, 21, 21);
     padding: 0px 0px;
     padding: 0px 0px; 
@@ -52,22 +52,23 @@ body {
 }
 
 #spotify{
-    margin-top: 47%;
-    position: absolute;
+    margin-top: 88%;
+    position: relative;
     width: 320px;
     height: 120px;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 #fotoCantante{
-    top: 100%;
+    margin-top: auto;
     position: absolute;
-    width: 1370px;
-    height: 797px;
+    width: 100%;
+    height: auto;
 }
 
 #logoBar1 {
-    top: 101%;
+    margin-top: 1%;
     position: absolute;
     width: 450px;
     height: 120px;
@@ -75,7 +76,7 @@ body {
 }
 
 #boton1a {
-    margin-top: 60%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -87,7 +88,7 @@ body {
 }
 
 #boton2a {
-    margin-top: 60%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -99,7 +100,7 @@ body {
 }
 
 #boton3a {
-    margin-top: 60%;
+    margin-top: 2%;
     position: absolute;
     width: 140px;
     height: 50px;
@@ -114,28 +115,36 @@ body {
     position: absolute;
     width: 400px;
     height: 300px;
-    margin-top: 70%;
+    margin-top: 12%;
     text-align: justify;
-    left: 100px;
+    left: 13%;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 25px;
 }
 
 #galeria {
-    margin-top: 87%;
-    position: absolute;
+    margin-top: 60%;
+    position: relative;
     width: 270px;
     height: 50px;
-    left: 13%;
+    left: 25%;
     padding: 0px 0px;
     padding: 0px 0px; 
     font-family: 'Germania One', cursive;
     font-size: 30px;
     border: 1px solid;
+    margin-bottom: 44%;
+}
+
+#fondo1 {
+    margin-top: 2%;
+    position: absolute;
+    width: 100%;
+    height: auto;
 }
 
 #logoBar2 {
-    top: 203%;
+    margin-top: 3%;
     position: absolute;
     width: 450px;
     height: 120px;
@@ -143,7 +152,7 @@ body {
 }
 
 #boton1b {
-    margin-top: 119%;
+    margin-top: 4%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -155,7 +164,7 @@ body {
 }
 
 #boton2b {
-    margin-top: 119%;
+    margin-top: 4%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -167,7 +176,7 @@ body {
 }
 
 #boton3b {
-    margin-top: 119%;
+    margin-top: 4%;
     position: absolute;
     width: 140px;
     height: 50px;
@@ -179,7 +188,7 @@ body {
 }
 
 #barra2 {
-    margin-top: 125%;
+    margin-top: 10.5%;
     position: absolute;
     padding: 0px 0px;
     padding: 0px 0px; 
@@ -188,69 +197,71 @@ body {
 }
 
 #cartelera1 {
-    margin-top: 132%;
+    margin-top: 16%;
     position: absolute;
-    left: 6.7%;
-    width: 350px;
-    height: 500px;
+    margin-left: 5.6%;
+    width: 320px;
+    height: 450px;
 }
 
 #cartelera2 {
-    margin-top: 132%;
+    margin-top: 15.8%;
     position: absolute;
-    left: 37.7%;
-    width: 350px;
-    height: 500px;
+    margin-left: 4.5%;
+    width: 320px;
+    height: 450px;
 }
+
 #cartelera3 {
-    margin-top: 132%;
+    margin-top: 15.8%;
     position: absolute;
-    left: 68.3%;
-    width: 350px;
-    height: 500px;
+    margin-left: 3%;
+    width: 320px;
+    height: 450px;
 }
 
 #botonReserva1 {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 50px;
     font-size: 30px;
     border: 1px solid;
-    margin-top: 170%;
-    left: 12.5%;
+    margin-top: 165%;
+    margin-left: 32%;
     padding: 0px 0px;
     padding: 0px 0px; 
     font-family: 'Rock Salt', cursive;
 }
 
 #botonReserva2 {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 50px;
     font-size: 30px;
     border: 1px solid;
-    margin-top: 170%;
-    left: 74%;
+    margin-top: 165%;
+    margin-left: 27%;
     padding: 0px 0px;
     padding: 0px 0px; 
     font-family: 'Rock Salt', cursive;
 }
 
 #botonReserva3 {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 50px;
     font-size: 30px;
     border: 1px solid;
-    margin-top: 170%;
-    left: 43%;
+    margin-top: 165%;
+    margin-left: 23%;
+    margin-bottom: 6%;
     padding: 0px 0px;
     padding: 0px 0px; 
     font-family: 'Rock Salt', cursive;
 }
 
 #logoBar3 {
-    margin-top: 176%;
+    margin-top: 1%;
     position: absolute;
     width: 450px;
     height: 120px;
@@ -258,7 +269,7 @@ body {
 }
 
 #boton1c {
-    margin-top: 178%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -270,7 +281,7 @@ body {
 }
 
 #boton2c {
-    margin-top: 178%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -282,7 +293,7 @@ body {
 }
 
 #boton3c {
-    margin-top: 178%;
+    margin-top: 2%;
     position: absolute;
     width: 140px;
     height: 50px;
@@ -294,17 +305,17 @@ body {
 }
 
 #bebidas {
-    margin-top: 175%;
+    margin-top: auto;
     position: absolute;
-    width: 1370px;
-    height: 797px;
+    width: 100%;
+    height: auto;
 }
 
 #parrafoBebidas{
     position: absolute;
     width: 350px;
     height: 300px;
-    margin-top: 192%;
+    margin-top: 20%;
     text-align: justify;
     left: 112px;
     font-family: 'IM Fell DW Pica', serif;
@@ -312,20 +323,28 @@ body {
 }
 
 #botonDescubrir{
-    position: absolute;
+    position: relative;
     width: 230px;
     height: 50px;
     font-size: 30px;
     border: 1px solid;
-    margin-top: 206%;
-    left: 13%;
+    margin-top: 72%;
+    margin-left: 24%;
     padding: 0px 0px;
     padding: 0px 0px; 
+    margin-bottom: 48%;
     font-family: 'Homemade Apple', cursive;
 }
 
+#fondoFinal{
+    margin-top: auto;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
 #logoBar4 {
-    margin-top: 234%;
+    margin-top: 1.5%;
     position: absolute;
     width: 450px;
     height: 120px;
@@ -333,7 +352,7 @@ body {
 }
 
 #boton1d {
-    margin-top: 236%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -345,7 +364,7 @@ body {
 }
 
 #boton2d {
-    margin-top: 236%;
+    margin-top: 2%;
     position: absolute;
     width: 90px;
     height: 50px;
@@ -357,7 +376,7 @@ body {
 }
 
 #boton3d {
-    margin-top: 236%;
+    margin-top: 2%;
     position: absolute;
     width: 140px;
     height: 50px;
@@ -368,37 +387,57 @@ body {
     font-family: 'Rock Salt', cursive;
 }
 
-#parrafoFinal1{
+#logoFinal{
+    margin-top: 10%;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-left: 44%;
+}
+
+#parrafoFinal{
     position: absolute;
     width: 350px;
     height: 300px;
-    margin-top: 250%;
+    margin-top: 13%;
     text-align: center;
-    right: 1000px;
-    font-family: 'IM Fell DW Pica', serif;
+    margin-left: 36%;
+    font-family: 'Almendra', serif;
     font-size: 20px;
 }
 
-#parrafoFinal2{
+#iconoFacebook{
     position: absolute;
-    width: 350px;
-    height: 300px;
-    margin-top: 270%;
-    text-align: center;
-    right: 1000px;
-    font-family: 'IM Fell DW Pica', serif;
-    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin-top: 29%;
+    margin-left: 45%;
+}
+
+#iconoInstagram{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    margin-top: 29.3%;
+    margin-left: 48.8%;
+}
+
+#iconoTwitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 29%;
+    margin-left: 52%;
 }
 
 #botonEnviar{
+    margin-top: 44%;
     position: absolute;
-    width: 270px;
+    width: 140px;
     height: 50px;
-    font-size: 30px;
-    border: 1px solid;
-    margin-top: 276%;
-    left: 50%;
+    margin-left: 46%;
+    background-color: rgb(87, 21, 21);
     padding: 0px 0px;
     padding: 0px 0px; 
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Rock Salt', cursive;
 }
