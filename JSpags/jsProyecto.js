@@ -25,10 +25,10 @@ $(document).ready(function() {
   }
   //Método que reinicializa los contenedores
   function OcultarContenedor2() {
-    $('#pantallaHome').show(1000);
-    $("#pantallaCantante").show(1000);
-    $("#pantallaConciertos").show(1000);
-    $("#pantallaBebidas").show(1000);
-    $("#pantallaFinal").show(1000);
+    $('#pantallaHome').fadeIn(1000);
+    $("#pantallaCantante").fadeIn(1000);
+    $("#pantallaConciertos").fadeIn(200);
+    $("#pantallaBebidas").fadeIn(200);
+    $("#pantallaFinal").fadeIn(200);
     $('#pantallaDeCarga').hide();
   }
