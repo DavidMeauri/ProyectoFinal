@@ -1,22 +1,4 @@
 
-#contenido{
-
-color: brown;
-font-size: 50px;
-
-}
-.alinearTexto{
-
-text-align: center;
-
-}
-#imagen1{
-width: 350px;
-height: 500px;
-margin-top: 2%;
-position: relative;
-
-}
 #subtitulo{
     text-align: left;
     font-family: 'Caesar Dressing', cursive;
@@ -29,107 +11,127 @@ position: relative;
     margin-top: 4%;
 
 }
-#contenedorImagen{
 
-    text-align:initial
-
-}
 #tex{
+    font-family: 'Almendra', serif;   
+}
+
+.card1{
     font-family: 'Almendra', serif;
-    
 }
-#lista1{
-
-    text-align: left;
-
-}
-#cads{
+.card2{ 
     font-family: 'Almendra', serif;
-
 }
-#cads1{
-    
+.card3{
     font-family: 'Almendra', serif;
+}
+
+#imagenBar{
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
 
 }
-#cad2{
-    font-family: 'Almendra', serif;
-
+#barraMenu{
+    width: 100%;
+    height: auto;
+    position: relative;
 }
-#imagen1{
-    margin-left: 10%;
 
-}
-#imagen2{
-    margin-left: 2%;
+#opcionCerveza{
+    position: absolute;
     margin-top: 2%;
-
+    margin-left: 6%;
 }
-#imagen3{
-    margin-left: 2%;
+
+#opcionCoctel{
+    position: relative;
     margin-top: 2%;
-
+    margin-left: 38%;
 }
+
+#opcionTequila{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 70%;
+}
+
 #imagen4{
-
-   position: absolute;
-   margin-left: 50%;
-
+   margin-top: 2%;
+   position: relative;
+   margin-left: 40%;
 }
-#imagen5{
 
+#imagen5{
+    margin: auto;
     position: relative;
-    width: auto;
-    height: 800px;
-    margin-top: 8%;
-    
- }
- #imagen7{
+    width: 100%;
+    height: auto;
     margin-top: 2%;
-    width: auto;
-    height: 100px;
  }
+
+ #imagen7{
+    margin: auto;
+    width: 100%;
+    height: auto;
+ }
+
  #imagen8{
-    margin-left: 5%;
+    margin-left: 2%;
     position: relative;
-    margin-top: 20px;
+    margin-top: 2%;
     height: 500px;
  }
+
  #imagen9{
-    
     margin-left: 5%;
     margin-top: 2%;
     height: 500px;
     margin-bottom: 50%;
-    
+    height: 400px;
  }
+
  #imagen10{
     height: 200px;
-    margin-left: 7%;
-    position: absolute;
-    margin-bottom: 20%;
+    margin-left: 25%;
+    position: relative;
  }
+
  #imagen11{
-    margin-top: 15%;
-    margin-left: 2%;
+    margin:auto;
+    margin-left: 15%;
  }
+
  #imagen12{
-    margin-left: 70%;
+    margin-left: 12%;
     margin-top: 2%;
-    }
+}
+
 #imagen13{
-    margin-left: 72%;
+    margin-left: 13%;
     margin-top: 2%;
-    }
+}
+
 #imagen14{
     margin-left: 40%;
-    margin-top: 2%;
-    }
- #lista{
+    margin-top: 12%;
+}
+
+#imagen15{
     margin-left: 40%;
     margin-top: 2%;
-        }
+    width: 500px;
+}
+
+#lista{
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+#contactanosFinal{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
     
-#imagen20{
-    
-        }
